@@ -1,0 +1,53 @@
+/* note to self
+pay attention to detai
+everything is sensative with rules!!!
+i got this!!!! */
+
+#container {
+    background-color: lightskyblue;
+    width: 730px;
+    height: 800px;
+    padding-top: 15px;
+    overflow: hidden;
+
+}
+h1 {
+    align-items: center;
+    justify-content: center;
+    margin-left: 230px;
+}
+.purplebox {
+    background-color: rebeccapurple;
+    width: 720px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    border: 5px solid black;
+}
+.redbox {
+    background-color: red;
+    width: 720px;
+    height: 230px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    border: 5px solid black;
+}
+
+.bluebox{
+    background-color: lightpink;
+    width: 720px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+border: 5px solid black;
+}
+
+img {
+    height: 200px;
+    margin-left: 20px;
+
+}
