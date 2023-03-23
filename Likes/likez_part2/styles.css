@@ -1,0 +1,239 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* this is the header/nav bar */
+.nav{
+    background-color: black;
+    color: aliceblue;
+    width: 910px;
+    height: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 75px;
+}
+
+h1{
+    display: flex;
+    margin-left: 25px;
+}
+
+
+/* this is the "your feed bar---------------------------- */
+.feed{
+    color: black;
+    width: 910px;
+    height: 50px;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-left: 75px;
+}
+
+.yourFeed h1{
+justify-content: space-evenly;
+    margin-left: 25px;
+}
+
+/* this is the container class--------------------- */
+.container{
+    width: 900px;
+    height: 900px;
+    margin-left: 75px;
+    display: flex;
+
+}
+
+
+/* this is the left column -------------------------*/
+.left{
+    width: 600px;
+    height: 400px;
+    vertical-align: middle;
+margin: 0 auto;
+}
+
+/* --this is leftTop box */
+.leftTop{
+width: 300px;
+height: 200px;
+border-left: 3px solid black;
+border-top: 3px solid black;
+border-right: 3px solid black;
+}
+
+/* this is the avatar image */
+
+.user {
+position: relative;
+width: 165px;
+height: 150px;
+margin-left: 65px;
+margin-top: 35px;
+}
+/* link of add an avatar */
+.link {
+    font-size: 18pt;
+    font-weight: bold;
+    margin-left: 75px;
+}
+
+.Jon{
+    font-size: 18pt;
+    margin-left: 75px;
+    margin-top: 60px;
+}
+
+/* --this is the leftBottom */
+.leftBottom{
+width: 300px;
+height: 200px;
+border-left: 3px solid black;
+border-bottom: 3px solid black;
+border-right: 3px solid black;
+}
+
+/* this is the right column ----------------------------*/
+.right{
+    width: 550px;
+    height: 900px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* this is the right Top box */
+.rightTop{
+    width: 550px;
+    height: 250px;
+border: 5px solid black;
+
+
+}
+/* aTop */
+.aTop{
+    width: 550px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* make Neil fit description */
+.neil {
+    font-size: 24pt;
+}
+
+.countA{
+    font-size: 18pt;
+}
+
+.countlikeA{
+width: 50px;
+height:30px;
+font-size: 16pt;
+}
+
+/* aBottom */
+.aBottom{
+    width: 550px;
+    height: 120px;
+}
+
+/* words of neil in aBottom box */
+.neilwords{
+    font-size: 18pt;
+    margin-left: 50px;
+}
+
+/* this is the right Mid Box */
+.rightMid{
+    width: 550px;
+    height: 250px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 5px solid black;
+    margin-top: 25px;
+
+}
+/* aTop */
+.bTop{
+    width: 550px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* this is where we make the contents of nichole fit the description */
+.nichole {
+    font-size: 24pt;
+}
+
+.countB{
+    font-size: 18pt;
+}
+
+.countlikeB{
+width: 50px;
+height:30px;
+font-size: 16pt;
+}
+/* words by nichole */
+.nicholewords{
+    font-size: 18pt;
+    margin-left: 40px;
+}
+
+/* aBottom */
+.bBottom{
+    width: 550px;
+    height: 120px;
+}
+
+/* this is the right Bottom box */
+.rightBottom{
+    width: 550px;
+    height: 250px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 5px solid black;
+    margin-top: 25px;
+
+
+}
+/* aTop */
+.cTop{
+    width: 550px;
+    height: 120px;    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* this is where we make the content of Jim fit the description */
+.Jim {
+    font-size: 24pt;
+}
+
+.countC{
+    font-size: 18pt;
+}
+
+.countlike{
+    background-color:rgb(255,217,102) ;
+width: 50px;
+height:30px;
+font-size: 16pt;
+box-shadow: 4px 4px 4px  black;
+}
+
+/* aBottom */
+.cBottom{
+    width: 550px;
+    height: 120px;
+}
+/* words by jim */
+.jimwords{
+    font-size: 18pt;
+    margin-left: 50px;
+}
