@@ -1,0 +1,35 @@
+.nav {    background-color:rgb(8, 8, 8);
+    display: flex;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    color: white;
+    margin-left: 15px;
+}
+
+.nav-links {
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    justify-content: space-between;
+    width: 350px;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: aqua;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 3px 2px 2px black;
+    /* font-family:sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
