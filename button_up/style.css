@@ -1,0 +1,22 @@
+.button {
+color: aquamarine;
+border: 2px solid aquamarine;
+border-radius: 35%;
+margin: 10px;
+margin-top: 50px;
+}
+.plus1 {
+background-color: aquamarine;
+color:white;
+font-size: 15pt;
+border-radius: 50%;
+border:transparent;
+}
+.create-account {
+    background-color: blue;
+    color:white;
+    border-color: black;
+    border-width: 1pt;
+    margin-top: 15px;
+        box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+}
