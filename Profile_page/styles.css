@@ -1,0 +1,316 @@
+* {
+    margin: 0%;
+    padding: 0%
+}
+
+/* this is the nav bar */
+.nav {
+    background-color: rgb(5, 0, 0);
+    display: flex;
+    border: 3px solid black;
+    margin: 0 auto;
+    width: auto;
+    height: 100px;
+}
+
+/* this is the nav links */
+
+.nav-title {
+    flex: 1;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+    justify-content: left;
+    /* margin-left: 30px; */
+    /* display: inline-flex; */
+}
+
+.nav-title,
+p {
+    flex: 2;
+    text-align: center;
+    color: white;
+    /* margin-top: 20px; */
+    justify-content: space-around
+        /* display: inline-flex; */
+}
+
+.btn {
+
+    text-align: left;
+    width: 60px;
+    height: 25px;
+    border-radius: 20%;
+    margin-top: 5px;
+    background-color: aqua;
+    color: white;
+}
+
+.container {
+    width: 1200px;
+    height: 1080px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* this will be the start of my Lcol */
+
+.Lcolumn {
+    flex: 1;
+    width: auto;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* start of profile card box */
+.profileCard {
+    width: 500px;
+    height: 475px;
+    background: linear-gradient(to top,
+            white 25%,
+            white 75%,
+            skyblue 25%,
+            skyblue 100%);
+    margin: 55px;
+    color: black;
+    border: 5px black;
+    /* border: gray 0px, 2px, 2px, 2px; */
+
+}
+
+/* img of user */
+.imgUser {
+    position: relative;
+    width: 100px;
+    left: 35px;
+    margin-top: 60px;
+}
+
+/* Jane Doe */
+h1 {
+    margin-left: 38px;
+    font-size: 40pt;
+}
+
+/* Map marker */
+.marker {
+    height: 35px;
+    color: black;
+}
+
+.seattle {
+    color: black;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-right: 300px;
+}
+
+.brag {
+    font-weight: bold;
+    margin-left: 45px;
+}
+
+.brag,
+p {
+    font-size: 16pt;
+}
+
+.gear {
+    height: 24px;
+    /* text-align: left; */
+}
+
+
+.education {
+    width: 500px;
+    height: 180px;
+    background-color: aliceblue;
+    margin: 55px;
+}
+
+.edu {
+    width: 500px;
+    height: 50px;
+    background-color: #343a40;
+}
+
+.edu {
+    color: white;
+    font-size: 36pt;
+}
+
+.history {
+    font-weight: bolder;
+    font-size: 18pt;
+    margin-left: 15px;
+}
+
+
+/* this is the start of the right column */
+
+.Rcolumn {
+    flex: 1;
+    width: 600px;
+    height: 1075px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* this is the "connection request" */
+
+
+.request {
+    background-color: #343a40;
+    width: 450px;
+    height: 75px;
+    /* margin-left: 55px; */
+    margin-top: 55px;
+    display: flex;
+}
+
+
+.btn2 {
+    border-radius: 50%;
+    font-size: 22pt;
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+p1 {
+    color: white;
+    font-size: 24pt;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+
+h4 {
+    color: white;
+    font-size: 18pt;
+    margin-left: 125px;
+}
+
+
+
+
+.conReq {
+    background-color: aliceblue;
+    width: 450px;
+    height: 300px;
+}
+
+
+
+.toddbox {
+    height: 25px;
+    display: inline-flex;
+}
+
+.todd {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.philbox {
+    height: 25px;
+    display: inline-flex;
+}
+
+.phil {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+
+
+
+/* this is the "your connections" */
+
+.yourCon {
+    background-color: #343a40;
+    width: 450px;
+    height: 75px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.btn5 {
+    border-radius: 50%;
+    font-size: 22pt;
+    height: 50px;
+    width: 75px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+
+/* this is where your connection box begins */
+
+
+.conn {
+    background-color: aliceblue;
+    width: 450px;
+    height: 300px;
+}
+
+/* adrien d */
+.AdrienD {
+    height: 25px;
+    display: inline-flex;
+}
+
+.Adrien {
+    font-size: 20pt;
+    font-weight: bold;
+    /* border-radius: 50%; */
+}
+
+/* anne j */
+.AnneJ {
+    display: inline-flex;
+
+}
+
+.Anne {
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+/* alayne t */
+.AlayneT {
+    display: inline-flex;
+    font-size: 20pt;
+}
+
+.Alayne {
+    font-weight: bold;
+}
+
+/* arry y */
+.ArryT {
+    display: inline-flex;
+    font-size: 20pt;
+}
+
+.Arry {
+    font-weight: bold;
+}
+
+
+
+
+/* * this is the "view more" section */
+.view {
+    width: 450px;
+    height: 50px;
+    background-color: aliceblue;
+    font-weight: bold;
+    border: black;
+}
