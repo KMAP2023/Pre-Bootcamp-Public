@@ -1,0 +1,15 @@
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\bin\Debug\net7.0\GameDeveloper.exe
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\bin\Debug\net7.0\GameDeveloper.deps.json
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\bin\Debug\net7.0\GameDeveloper.runtimeconfig.json
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\bin\Debug\net7.0\GameDeveloper.dll
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\bin\Debug\net7.0\GameDeveloper.pdb
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\obj\Debug\net7.0\GameDeveloper.csproj.AssemblyReference.cache
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\obj\Debug\net7.0\GameDeveloper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\obj\Debug\net7.0\GameDeveloper.AssemblyInfoInputs.cache
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\obj\Debug\net7.0\GameDeveloper.AssemblyInfo.cs
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\obj\Debug\net7.0\GameDeveloper.csproj.CoreCompileInputs.cache
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\obj\Debug\net7.0\GameDeveloper.dll
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\obj\Debug\net7.0\refint\GameDeveloper.dll
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\obj\Debug\net7.0\GameDeveloper.pdb
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\obj\Debug\net7.0\GameDeveloper.genruntimeconfig.cache
+C:\Users\alexi\Desktop\C_Sharp\GameDeveloper\obj\Debug\net7.0\ref\GameDeveloper.dll
