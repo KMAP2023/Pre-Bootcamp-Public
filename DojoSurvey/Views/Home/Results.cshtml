@@ -1,0 +1,30 @@
+@using DojoSurvey.Models
+
+@model User
+
+<body>
+    <div style="margin:0 auto; width: 400px; background-color: lightblue; text-align:center;">
+        <h2>Dojo Survey</h2>
+        <ul>
+            <li>
+                <h3>@Model.Name</h3>
+            </li>
+            <li>
+                <h3>@Model.DojoLocation</h3>
+            </li>
+            <li>
+                <h3>@Model.FavoriteLanguage</h3>
+            </li>
+            <li>
+                <h3>@Model.Comments</h3>
+            </li>
+        </ul>
+
+<a href="/"
+    style="text-decoration:none; border: solid black 1px; border-radius: 2px; padding: 0px 5px; color:black; background-color: lightgray; box-shadow: 2px 2px grey;">Go
+    Back</a>
+    </div>
+</body>
+
+
+@* style="text-decoration:none;" *@

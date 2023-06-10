@@ -1,0 +1,102 @@
+@* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> *@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@* this is the tags for the asp-for when utilizing asp-for for the validation methods *@
+@* import around models *@
+
+@using DojoSurvey.Models
+
+@model User //once we start using the asp tags, than it'll start binding ==> also you can only have one view model per
+@* document unless it nested *@
+
+
+@{
+    ViewData["Home"] = "Home Page";
+}
+
+<body>
+    <div style="margin:0 auto; width: 400px; background-color: lightblue; text-align:center;">
+        <h2>Dojo Survey</h2>
+
+        <form class="shadow p-3 rounded" asp-action="AddUser" asp-controller="Home" method="post">
+            <div>
+                <label asp-for="Name">Ninja Name</label>
+                <input class="form-control" asp-for="Name">
+                <span asp-validation-for="Name"></span>
+            </div>
+
+            <div>
+                <label asp-for="DojoLocation" class="form-control">Dojo Location</label>
+                <select asp-for="DojoLocation">
+                    <option type="hidden"></option>
+                    <option value="San Jose">San Jose</option>
+                    <option value="San Diego">San Diego</option>
+                    <option value="Denver">Denver</option>
+                    <option value="Austin">Austin</option>
+                </select>
+                <span asp-validation-for="DojoLocation"></span>
+            </div>
+
+            <div>
+                <label asp-for="FavoriteLanguage" class="form-control">Favorite Language</label>
+                <select asp-for="FavoriteLanguage">
+                    <option type="hidden"></option>
+                    <option value="C Sharp">C Sharp</option>
+                    <option value="MERN">MERN</option>
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                </select>
+                <span asp-validation-for="FavoriteLanguage"></span>
+            </div>
+
+            <div>
+                <label asp-for="Comments" class="form-control">Comments: </label>
+                <textarea name="Comments" cols="20" rows="3"></textarea>
+                <span asp-validation-for="Comments"></span>
+            </div>
+
+            <div>
+                <button class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+
+        @* <a href="/results">results</a> *@
+    </div>
+</body>
+
+@* <form action="/addUser" method="post">
+<div>
+<label for="">Name:</label>
+<input type="text" name="Name">
+</div>
+
+<div>
+<label for="">Dojo Location:</label>
+<select name="DojoLocation">
+<option value="San Jose">San Jose</option>
+<option value="San Diego">San Diego</option>
+<option value="Denver">Denver</option>
+<option value="Austin">Austin</option>
+</select>
+</div>
+
+<div>
+<label for="">Favorite Language:</label>
+<select name="FavoriteLanguage">
+<option value="C Sharp">C Sharp</option>
+<option value="MERN">MERN</option>
+<option value="Python">Python</option>
+<option value="Java">Java</option>
+</select>
+</div>
+
+<div>
+<label for="">Comments: </label>
+<textarea name="Comment" cols="20" rows="3"></textarea>
+</div>
+
+<div>
+<button class="btn btn-primary">Submit</button>
+</div>
+</form> *@
